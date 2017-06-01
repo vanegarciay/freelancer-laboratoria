@@ -12,35 +12,32 @@
 <body>
 	<!--barra de navegacion-->
     <div class="container">
-        <nav class="row">
+        <nav class="row col-12" id="barra_menu">
             <div class="col-6">
-                <h1>STAR BOTSTRAP</h1>
+                <h1>START BOTSTRAP</h1>
             </div>
-            <div class="col-6">
+            <div class="col-6" id="enlaces_menu">
                 <a href="#">PORTFOLIO</a>
                 <a href="#">ABOUT</a>
                 <a href="#">CONTACT</a>
             </div>
         </nav>
         <!--header con monachito-->
-        <header>
-            <div class="row">
-                <div class="col-12 center">
-                    <img src="assets/images/profile.png" alt="imagencentro">
-                    <div class="titulo">
-                        <h1>STAR BOOTSTRAP</h1>
-                        <div class="linea-estrella-blanca"></div>
-                    </div>
-                    <h3>Web Developer - Graphic Artist - Use Experience Designer</h3>
-                </div>            
-            </div>
+        <header class="row col-12">
+            <div class="col-12 center">
+                <img src="assets/images/profile.png" alt="imagencentro">
+                <div class="titulo">
+                    <h1>START BOOTSTRAP</h1>
+                    <div class="linea-estrella-blanca"></div>
+                </div>
+                <h3>Web Developer - Graphic Artist - Use Experience Designer</h3>
+            </div>            
         </header> 
         <!--seccion de imagenes-->
-        <section>
-            <div class="row">
-                <div class="center">
+        <section class="row col-12">
+                <div class="titulo center gris">
                     <h1>PORTFOLIO</h1>
-                    <div class="linea-estrella-negra"></div>
+                    <div class="linea-estrella-negra gris-claro"></div>
                 </div>
                 <div class="col-4">
                     <img src="assets/images/portfolio/cabin.png" class="img-responsive" alt="casita">
@@ -60,20 +57,19 @@
                 <div class="col-4">
                     <img src="assets/images/portfolio/submarine.png" class="img-responsive" alt="submarino">
                 </div>   
-            </div>
         </section>
         <!--seccion de imagenes-->
-        <section class="row">
+        <section class="row col-12" id="about">
             <div class="col-12 center">
                 <div class="titulo">
                     <h1>ABOUT</h1>
                     <div class="linea-estrella-blanca"></div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-4 center">
                 <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
             </div>
-            <div class="col-6">
+            <div class="col-4 center">
                 <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
             </div>
             <div class="col-12 center">
@@ -81,9 +77,9 @@
             </div>
         </section>
         <!--seccion de formulario-->
-        <section class="row">   
+        <section class="row col-12">   
             <div class="col-12 center">
-                <div class="titulo">
+                <div class="titulo gris">
                     <h1>CONTACT ME</h1>
                     <div class="linea-estrella-negra"></div>
                 </div>
@@ -97,7 +93,7 @@
             </div>            
         </section>
         <!--seccion de redes sociales y locacion-->
-        <section class="row center">
+        <section class="row center col-12" id="section-social">
             <div class="col-4">
                 <h1>LOCATION</h1>
                 <p>3481 Melrose Place</p>
@@ -117,7 +113,7 @@
             </div>            
         </section>
         <!--footer-->
-        <footer class="center">
+        <footer class="center col-12" id="footer">
             <p>Copyright © Your Website 2016</p>
         </footer>
     </div>

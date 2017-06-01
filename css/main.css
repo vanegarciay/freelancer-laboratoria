@@ -5,8 +5,7 @@
     font-family: 'Lato', sans-serif;
 }
 
-.container{
-    max-width: 1200px;
+.container{    
     width: 100%;
     margin: 0 auto;
 }
@@ -91,6 +90,74 @@
     width: 100%;
 }
 
+/* ESTILOS GENERALES */
+
+nav#barra_menu {
+    padding: 1.5em 3em;
+    background-color: #2C3E50;
+    color: white;
+    position: fixed;
+    height: 6.5em;
+    z-index: 999;
+}
+
+#barra_menu a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    margin-top: 6.5em; 
+    background-color: #18BC9C;
+    color: white;
+}
+
+header img {
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+
+header .titulo h1 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+#about {
+    background-color: #18BC9C;
+    color: white;
+}
+
+#section-social {
+    background-color: #2C3E50;
+    color: white;
+}
+
+#footer {
+    background-color: #233140;
+    color: white;
+}
+
+.gris {
+    color: #333333;
+}
+
+.gris-claro {
+    color: #2C3E50;
+    background-color: #2C3E50;
+}
+
+div#enlaces_menu {
+    text-align: right;
+}
+
+div#enlaces_menu a {
+    padding: 1em;
+    font-weight: bold;
+}
+
+div#enlaces_menu a:hover {
+    color: #18BC9C;
+}
 
 /*
 #menu {
