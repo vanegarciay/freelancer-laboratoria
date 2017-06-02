@@ -35,28 +35,30 @@
         </header> 
         <!--seccion de imagenes-->
         <section class="row col-12">
-                <div class="titulo center gris">
-                    <h1>PORTFOLIO</h1>
-                    <div class="linea-estrella-negra gris-claro"></div>
-                </div>
-                <div class="col-4">
+            <div class="titulo center gris">
+                <h1>PORTFOLIO</h1>
+                <div class="linea-estrella-negra gris-claro"></div>
+            </div>
+            <div class="contenedor_imagenes">
+                <div class="col-4 box-services">
                     <img src="assets/images/portfolio/cabin.png" class="img-responsive" alt="casita">
                 </div>    
-                <div class="col-4">
+                <div class="col-4 box-services">
                     <img src="assets/images/portfolio/cake.png" class="img-responsive" alt="cake">
                 </div>   
-                <div class="col-4">
+                <div class="col-4 box-services">
                     <img src="assets/images/portfolio/circus.png" class="img-responsive" alt="circo">
                 </div>   
-                <div class="col-4">
+                <div class="col-4 box-services">
                     <img src="assets/images/portfolio/game.png" class="img-responsive" alt="game">
                 </div>  
-                <div class="col-4">
+                <div class="col-4 box-services">
                     <img src="assets/images/portfolio/safe.png" class="img-responsive" alt="boveda">
                 </div>
-                <div class="col-4">
+                <div class="col-4 box-services">
                     <img src="assets/images/portfolio/submarine.png" class="img-responsive" alt="submarino">
-                </div>   
+                </div>
+            </div>   
         </section>
         <!--seccion de imagenes-->
         <section class="row col-12" id="about">
@@ -84,7 +86,7 @@
                     <div class="linea-estrella-negra"></div>
                 </div>
                 <form >
-                    <input  type="text" placeholder="Name"><br>
+                    <input  type="text" placeholder="Name" required><br>
                     <input type="text" placeholder="Email Address"><br>
                     <input type="text" placeholder="Phone Number"><br>
                     <textarea rows="" cols="" placeholder="Message"></textarea><br>
@@ -112,11 +114,15 @@
                 <p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
             </div>            
         </section>
+        <!-- Aca va la info dinamica con JS -->
+        <div id="box-services-modal" class="oculto"></div>
         <!--footer-->
         <footer class="center col-12" id="footer">
             <p>Copyright © Your Website 2016</p>
+            <p>Desarrollado por Vanessa Garcia</p>
         </footer>
     </div>
     <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
+
