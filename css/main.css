@@ -205,7 +205,7 @@ div#enlaces_menu a:hover {
   width: 60%;
   margin: 0 auto;
   text-align: center;
-  padding: 100px;
+  padding: 5px;
  }
 
 #box-services-modal .close{
@@ -314,6 +314,20 @@ input::placeholder, textarea::placeholder{
 
 #section-social a {
     color: #18BC9C;
+}
+
+.close {
+    color: #CCC;
+}
+
+#titulo_modal {
+    padding: 80px 80px 0 80px;
+    color: #2C3E50;
+    font-size: 3em;
+}
+
+#estrella_modal {
+    font-size: 0.3em;
 }
 
 
