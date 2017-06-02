@@ -160,6 +160,7 @@ section {
 #footer {
     background-color: #233140;
     color: white;
+    font-size: 13px;
 }
 
 .gris {
@@ -302,12 +303,17 @@ input::placeholder, textarea::placeholder{
     height: 50px;
     font-size: 1.4em;
     transition: 0.8s;
+    cursor: pointer;
 }
 
 #section-social i:hover {
     background-color: whitesmoke;
     color: #128f76;
     transition: 0.8s;
+}
+
+#section-social a {
+    color: #18BC9C;
 }
 
 
