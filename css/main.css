@@ -101,8 +101,14 @@
 
 /* ESTILOS GENERALES */
 
+nav, header, section, footer {
+    padding-left: 5.3em !important;
+    padding-right: 5.3em !important;
+}
+
 nav#barra_menu {
-    padding: 1.5em 3em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     background-color: #2C3E50;
     color: white;
     position: fixed;
@@ -117,6 +123,7 @@ nav#barra_menu {
 
 header {
     margin-top: 6.5em; 
+    padding-bottom: 4.8em !important; 
     background-color: #18BC9C;
     color: white;
 }
@@ -126,14 +133,23 @@ header img {
     margin-bottom: 1em;
 }
 
-header .titulo h1 {
+header h1 {
+    padding-top: 0;
     font-size: 4em;
     font-weight: bold;
+}
+
+section {
+    padding-bottom: 6em !important;
 }
 
 #about {
     background-color: #18BC9C;
     color: white;
+}
+
+#about p {
+    font-size: 1.2em;
 }
 
 #section-social {
@@ -209,6 +225,27 @@ div#enlaces_menu a:hover {
 .modal-body img {
   width: 100%;
   min-width: 290px;
+}
+
+#boton_descargas button {
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    background: 0 0;
+    /*transition: all .3s ease-in-out;*/
+    margin-top: 15px;
+    padding: 10px 16px;
+    font-size: 1.3em;
+    border-radius: 6px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#boton_descargas button:hover {
+    background-color: whitesmoke;
+    color: #18bc9c;
+    transition: 0.8s;
 }
 
 
